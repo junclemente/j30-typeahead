@@ -8,7 +8,7 @@ I recently heard about Wes Bos and also his 30 Day JavaScript challenge. It's a 
 This project is a practice in writing vanilla JavaScript and to learn about other use cases.
 
 ### View Project
-[Click here to view the live project.]()
+[Click here to view the live project.](https://junclemente.github.io/j30-typeahead/)
 
 
 #### Project takeaways
