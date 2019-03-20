@@ -49,7 +49,7 @@ function displayMatches() {
         <span class="population">${place.population}</span>
       </li>
     `;
-  });
+  }).join(' ');
   console.log(html);
   suggestions.innerHTML = html;
 }
