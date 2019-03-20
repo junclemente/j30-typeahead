@@ -19,18 +19,16 @@ const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb
 
 const cities = [];
 
-// fetch(endpoint).then(blob => console.log(blob));
 fetch(endpoint)
-  // .then( function(blob) {
-  //   data = blob.json();
-  //   console.log(data);
+  // .then(function(blob) {
+  //   return blob.json();
+  // })
+  // .then(function(data) {
+  //   for (var i = 0; i < data.length; i++) {
+  //     cities.push(data[i]);
+  //   }
   // });
   .then(blob => blob.json())
-  // .then(data => {
-  //       for (var i = 0; i < data.length; i++ ) {
-  //         cities.push(data[i]);
-  //       };
-  //     });
   .then(data => cities.push(...data));
 
 
