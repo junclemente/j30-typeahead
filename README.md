@@ -12,3 +12,5 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
+* `fetch`: JavaScript API that returns a promise, similar to jQuery.ajax()
+* `RegExp`: Use of regular expressions to highlight a section of text
